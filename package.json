@@ -1,0 +1,34 @@
+{
+  "name": "ng2-dealwithit",
+  "version": "1.0.0",
+  "description": "Just deal with it in Angular 2!",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orjandesmet/ng2-dealwithit.git"
+  },
+  "keywords": [
+    "deal",
+    "with",
+    "it"
+  ],
+  "author": "Orjan De Smet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orjandesmet/ng2-dealwithit/issues"
+  },
+  "homepage": "https://github.com/orjandesmet/ng2-dealwithit#readme",
+  "dependencies": {
+    "@angular/core": ">=2.0.0",
+    "@angular/common": ">=2.0.0",
+    "rxjs": ">=5.4.2",
+    "zone.js": ">=0.7.8"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  },
+  "typings": "./index.d.ts"
+}

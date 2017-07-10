@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "src/deal-with-it.component.ts",
+        "src/deal-with-it.service.ts",
+        "src/deal-with-it.module.ts",
+        "index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
