@@ -35,3 +35,5 @@ Display the dealWithIt on any moment
 ```typscript
 this.dealWithItService.dealWithIt(top, left);
 ```
+
+Clicking on the glasses will hide them again
