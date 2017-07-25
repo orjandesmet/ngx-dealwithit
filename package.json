@@ -1,6 +1,6 @@
 {
   "name": "ng2-dealwithit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just deal with it in Angular 2!",
   "main": "index.js",
   "scripts": {

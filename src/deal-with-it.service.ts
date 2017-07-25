@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ReplaySubject } from 'rxjs/ReplaySubject';
+import { Subject } from 'rxjs/Subject';
 import { Subscription } from 'rxjs/Subscription';
 
 export class DealWithIt {
@@ -10,7 +10,7 @@ export class DealWithIt {
 @Injectable()
 export class DealWithItService {
 
-    private dealWithItSubject = new ReplaySubject<DealWithIt>(1);
+    private dealWithItSubject = new Subject<DealWithIt>();
 
     constructor() {}
 
