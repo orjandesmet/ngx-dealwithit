@@ -1,11 +1,11 @@
-# ng2-dealwithit
+# ngx-dealwithit
 
 Just deal with it!
 
 # import
 
 ```typescript
-import { DealWithItModule } from 'ng2-dealwithit';
+import { DealWithItModule } from 'ngx-dealwithit';
 ```
 
 include in imports of your module.
@@ -23,7 +23,7 @@ Add to your template
 Inject *DealWithItService*
 
 ```typescript
-import { DealWithItService } from 'ng2-dealwithit';
+import { DealWithItService } from 'ngx-dealwithit';
 
 ...
 constructor(private dealWithItService: DealWithItService) {}
